@@ -1,0 +1,2 @@
+# HolisticWare.DotNetNew.CakeScriptDebugTemplate
+HolisticWare.DotNetNew.CakeScriptDebugTemplate

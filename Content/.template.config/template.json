@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "HolisticWare/Xamarin moljac Miljenko Mel Cvjetko",
+  "classifications":
+      [
+          // Tags used to search for the template.
+          "Custom Templates",
+          "Xamarin",
+          "HolisticWare",
+          "Cake Script",
+          "xplat",
+          "debug",
+          "debugging"
+      ],
+  "groupIdentity": "HolisticWare.Tools.CakeScriptDebug",
+  "name": "Custom item template for Cake script with debugging support",
+  // A unique ID for the project template.
+  "identity": "HolisticWare.DotNetNew.CakeScriptDebugTemplate.CSharp",
+  // for commandline project creation
+  "shortName": "hw-cake-debug",
+  "placeholderFilename": "-.-",
+  "sources":
+  [
+      {
+          "source": "./",
+          "target": "./",
+          "modifiers": 
+          [
+              {
+                  "exclude": 
+                  [
+                      // .gitginore include would be nice
+                      ".template.config/**",
+                      ".template.config/**/*",
+                      "**/[Bb]in/**",
+                      "**/[Oo]bj/**",
+                      "**/tools/**",
+                      "**/*.filelist",
+                      "**/*.user",
+                      "**/*.lock.json",
+                      "**/.vs/**",
+                      "**/packages/**",
+                      "**/*.DS_Store",
+                      "**/.DS_Store",
+                  ],
+                  "include":
+                  [
+                      // .gitginore include would be nice
+                      "tools/**",
+                      "tools/**/*",
+                  ]
+            }
+          ]
+      }
+  ],
+  "tags":
+  {
+      // Specify that this template is in C#.
+      "language": "C#",
+      // project / solution
+      "type": "project"
+  }
+}

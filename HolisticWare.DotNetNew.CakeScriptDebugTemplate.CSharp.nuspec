@@ -4,7 +4,7 @@
 -->
 <package>
   <metadata>
-    <id>HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp</id>
+    <id>HolisticWare.DotNetNew.CakeScriptDebugTemplate.CSharp</id>
     <version>0.0.0.0</version>
     <description>
       Creates folder structure/layout for Xamarin cross-platform libraries and bindings
@@ -27,8 +27,14 @@
       <packageType name="Template" />
     </packageTypes>
   </metadata>
-    <files>
-        <file src="Content/**" target="" />
-    </files>
+  <files>
+    <file src="Content/**" target="" />
+    <!--
+    <file src="Content/source/build.cake" target="" />
+    <file src="Content/source/.vscode/launch.json" target="" />
+    <file src="Content/source/tools/Cake-bin-net461-v1.0.0/**" target="" />
+    -->
+  </files>
+  
 
 </package>

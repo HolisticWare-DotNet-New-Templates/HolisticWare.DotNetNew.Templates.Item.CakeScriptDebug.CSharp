@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageId>AdatumCorporation.Utility.Templates</PackageId>
+    <Title>AdatumCorporation Templates</Title>
+    <Authors>Me</Authors>
+    <Description>Templates to use when creating an application for Adatum Corporation.</Description>
+    <PackageTags>dotnet-new;templates;contoso</PackageTags>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <PackageOutputPath>..\output\</PackageOutputPath>
+   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

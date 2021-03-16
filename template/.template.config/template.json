@@ -7,7 +7,8 @@
           "Custom Templates",
           "Xamarin",
           "HolisticWare",
-          "Cake Script",
+          "Cake",
+          "Script",
           "xplat",
           "debug",
           "debugging"
@@ -22,8 +23,8 @@
   "sources":
   [
       {
-          "source": "./",
-          "target": "./",
+          "source": "./Content/",
+          "target": "./Content/",
           "modifiers": 
           [
               {
@@ -46,8 +47,8 @@
                   "include":
                   [
                       // .gitginore include would be nice
-                      "tools/**",
-                      "tools/**/*",
+                      "./Content/tools/**",
+                      "./Content/tools/**/*",
                   ]
             }
           ]

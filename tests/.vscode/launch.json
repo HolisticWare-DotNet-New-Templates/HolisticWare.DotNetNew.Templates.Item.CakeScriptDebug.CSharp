@@ -9,7 +9,7 @@
             "name": "Cake: Debug Script (.NET Core)",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceRoot}/tools/Cake.CoreCLR.1.0.0/Cake.dll",
+            "program": "${workspaceRoot}/tools/Cake.CoreCLR.1.1.0/Cake.dll",
             "args": [
                 "${workspaceRoot}/build.cake",
                 "--debug",
@@ -19,12 +19,12 @@
             "stopAtEntry": true,
             "externalConsole": false
         },
-        // https://github.com/cake-build/cake/releases/tag/v1.0.0
+        // https://github.com/cake-build/cake/releases/tag/v1.1.0
         {
             "name": "Cake: Debug Script (mono)",
             "type": "mono",
             "request": "launch",
-            "program": "${workspaceRoot}/tools/Cake-bin-net461-v1.0.0/Cake.exe",
+            "program": "${workspaceRoot}/tools/Cake-bin-net461-v1.1.0/Cake.exe",
             "args": [
                 "${workspaceRoot}/build.cake",
                 "--debug",

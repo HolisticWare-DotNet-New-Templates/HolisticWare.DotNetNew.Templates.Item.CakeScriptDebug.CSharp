@@ -430,14 +430,16 @@ local.properties
 #------------------------------------------
 # Xamarin.iOS build files
 **DerivedData**
-**build**
+# ignores cake files
+#**build**
 lib/**
 #------------------------------------------
 
 #------------------------------------------
 # iOS build files
 **DerivedData**
-**build**
+# ignores cake files
+#**build**
 lib/**
 #------------------------------------------
 

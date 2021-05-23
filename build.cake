@@ -56,7 +56,10 @@ FilePath file_destination = new FilePath
 								$"new.tmp.{version}"
 							)
 );
-Information($"file = {file_destination} : ");
+
+Information($"Copy");
+Information($"	file_source 		= {file_source} : ");
+Information($"	file_destination 	= new.tmp.{version} : ");
 CopyFile(file_source, file_destination);
 
 
@@ -112,7 +115,7 @@ Information("Exit code: {0}", exit_code);
 // 						;
 // NuGetPack
 // (
-// 	"./nuget/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp.nuspec",
+// 	"./nuget/HolisticWare.DotNetNew.CakeScriptDebugTemplate.CSharp.nuspec",
 // 	settings
 // );
 

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "HolisticWare/Xamarin moljac Miljenko Mel Cvjetko",
+  "author": "moljac Miljenko Mel Cvjetko HolisticWare/Xamarin/Microsoft",
   "classifications":
       [
           // Tags used to search for the template.
@@ -13,7 +13,7 @@
           "debug",
           "debugging"
       ],
-  "groupIdentity": "HolisticWare.Tools.CakeScriptDebug",
+  "groupIdentity": "HolisticWare.DotNetNew.Templates.Item.CakeScriptDebug",
   "name": "Custom item template for Cake script with debugging support",
   // A unique ID for the project template.
   "identity": "HolisticWare.DotNetNew.CakeScriptDebugTemplate.CSharp",
@@ -23,19 +23,19 @@
   "sources":
   [
       {
-          "source": "./Content/",
-          "target": "./Content/",
-          "modifiers": 
+          "source": "./",
+          "target": "./",
+          "modifiers":
           [
               {
-                  "exclude": 
+                  "exclude":
                   [
                       // .gitginore include would be nice
                       ".template.config/**",
                       ".template.config/**/*",
                       "**/[Bb]in/**",
                       "**/[Oo]bj/**",
-                      "**/tools/**",
+                      "**/*.cake",
                       "**/*.filelist",
                       "**/*.user",
                       "**/*.lock.json",
@@ -47,8 +47,10 @@
                   "include":
                   [
                       // .gitginore include would be nice
-                      "./Content/tools/**",
-                      "./Content/tools/**/*",
+                      "./.vscode/launch.json",
+                      // "./tools/**",
+                      "./tools/Cake-bin-coreclr-v1.3.0/**",
+                      "./tools/Cake-bin-net461-v1.3.0/**"
                   ]
             }
           ]
@@ -59,6 +61,6 @@
       // Specify that this template is in C#.
       "language": "C#",
       // project / solution
-      "type": "project"
+      "type": "item"
   }
 }

@@ -18,10 +18,17 @@
 */
 #tool nuget:?package=Cake.CoreCLR
 
-// Cake Addins
-// #addin nuget:?package=Cake.FileHelpers
+/*
+    Cake Addins
+*/
+#addin nuget:?package=Cake.FileHelpers
 
-//#load "utilities.cake"
+/*
+    #load-ing other scripts disables debugging for some reason
+
+    works 
+*/
+#load "utilities.cake"
 
 string TARGET = Argument ("t", Argument ("target", "Default"));
 

@@ -31,7 +31,7 @@
       make your template available in dotnet new search.
     -->
     <PackageType>Template</PackageType>
-    <TargetFramework>net7.0;net8.0</TargetFramework>
+    <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>

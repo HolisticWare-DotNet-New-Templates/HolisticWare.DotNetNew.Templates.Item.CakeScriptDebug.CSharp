@@ -1,19 +1,40 @@
-# HolisticWare.DotNetNew.CakeScriptDebugTemplate
+# DotNetNew.Templates.Item.CakeScriptDebug.CSharp
 
-HolisticWare.DotNetNew.CakeScriptDebugTemplate
+DotNetNew.Templates.Item.CakeScriptDebug.CSharp
+
+## Installation 
+
+
+### Local / Development
 
 ```
  dotnet new \
     uninstall \
-        source/HolisticWare.DotNetNew.CakeScriptDebugTemplate.CSharp/content
+        source/DotNetNew.Templates.Item.CakeScriptDebug.CSharp/content
         -v:diagnostic
 
  dotnet new \
     install \
-        source/HolisticWare.DotNetNew.CakeScriptDebugTemplate.CSharp/content \
+        source/DotNetNew.Templates.Item.CakeScriptDebug.CSharp/content \
         --force \
         -v:diagnostic
  ```
+
+### NuGet local
+
+
+### NuGet published
+
+
+
+## Details
+
+### `dotnet new` templating
+
+https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/dotnet-netfx/core/dotnet-new-templates
+
+
+### Cake Debugging
 
 https://github.com/default-writer/cake-structured-template/blob/main/cake.config
 
